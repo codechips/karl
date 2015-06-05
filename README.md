@@ -10,4 +10,4 @@ View it in action at [bitshift.me](http://bitshift.me). Tnx.
 
 ## Screenshot
 
-![mandatory screenshot](https://github.com/iljoo/karl/screenshot.png)
+![mandatory screenshot](https://github.com/iljoo/karl/blob/master/screenshot.png)
