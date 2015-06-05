@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+<title>{{ .Title }}</title>
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width,initial-scale=1">
+{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ end }}
+<style>
+body {
+	font-family: sans-serif;
+	font-size: .9em;
+	max-width: 480px;
+	margin: 20px auto 20px 10%;
+}
+h1, h2, h3, h4, h5 {
+	margin-bottom: 5px;
+}
+p, pre, li {
+	line-height: 150%;
+}
+#home {
+	display: block;
+	position: fixed;
+	z-index: 1;
+	top: 20px; left: 0;
+	font-size: 2em;
+	width: 9%;
+	background: #ccc;
+}
+#home a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	padding: 0 10px;
+}
+#home a:visited {
+	color: #fff;
+}
+#home a:hover {
+	color: #000;
+	background: #ff0;
+}
+
+@media screen and (max-width: 550px) {
+	body {margin: 50px 20px; }
+	#home {
+		top: 0; left: 0;
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body>
+<div id="home"><a href="/" title="home">&#8592;</a></div>
+{{ .Content }}
+</body>
+</html>

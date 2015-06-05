@@ -1,0 +1,11 @@
+name = "Karl"
+license = "MIT"
+licenselink = "https://github.com/iljoo/karl/LICENSE.md"
+description = "A theme inspired by Karl Seguin's blog - openmymind.net"
+homepage = "https://github.com/iljoo/karl"
+tags = ["clean", "minimal", "blog", "tags"]
+features = ["", ""]
+
+[author]
+  name = "Ilia Mikhailov"
+  homepage = "http://bitshift.me"
