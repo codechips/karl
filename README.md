@@ -8,6 +8,12 @@ improve and do a pull request.
 
 View it in action at [bitshift.me](http://bitshift.me). Tnx.
 
+## Rules
+
+- All posts go straight under content.
+- If you want to add a regular page tag it with "type = meta" in front matter.
+- Only tags are supported. No categories.
+
 ## Screenshot
 
 ![mandatory screenshot](https://github.com/iljoo/karl/blob/master/screenshot.png)
